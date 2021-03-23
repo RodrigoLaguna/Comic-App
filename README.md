@@ -1,27 +1,31 @@
-# Spa
+# SPA Comic-APP
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+Este proyecto se generó con [Angular CLI] (https://github.com/angular/angular-cli) versión 11.0.6.
 
-## Development server
+## Modulos de Node:
+Una vez clonado el proyecto nos movemos al interior de la carpeta del proyecto para descargar las dependencias necesarias.
+```
+npm install
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Servidor de desarrollo
 
-## Code scaffolding
+Ejecute el siguiente comando para un servidor de desarrollo. 
+```
+ng serve
+```
+Vaya a `http://localhost:4200/`. La aplicación se recargará automáticamente si cambia alguno de los archivos de origen.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Construir
 
-## Build
+Los artefactos de construcción se almacenarán en el directorio `dist/`. Utilice la marca `--prod` para una compilación de producción.
+```
+ng build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Ayuda adicional
 
-## Running unit tests
+Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte la página [Descripción general y referencia de comandos de Angular CLI] (https://angular.io/cli).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![Screenshot](screen.png)
