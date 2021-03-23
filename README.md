@@ -28,4 +28,4 @@ ng build
 Para obtener más ayuda sobre Angular CLI, use `ng help` o consulte la página [Descripción general y referencia de comandos de Angular CLI] (https://angular.io/cli).
 
 
-![Screenshot](screen.png)
+![Screenshot](screenshot.png)
